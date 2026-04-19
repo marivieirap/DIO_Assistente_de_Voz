@@ -44,18 +44,6 @@ Conversão da resposta em texto para áudio utilizando a biblioteca gTTS.
 
 ---
 
-## 🔄 Fluxo do Sistema
-
-```mermaid
-graph LR
-A[Áudio] --> B[Whisper (STT)]
-B --> C[ChatGPT]
-C --> D[gTTS (TTS)]
-D --> E[Áudio de resposta]
-```
-
----
-
 ## 🧰 Tecnologias Utilizadas
 
 * Python
